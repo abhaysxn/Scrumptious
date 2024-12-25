@@ -1,0 +1,72 @@
+Initialized native services in: C:\Users\DELL\.gradle\native
+Initialized jansi services in: C:\Users\DELL\.gradle\native
+Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot, JAVA_VERSION=21.0.2, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.2+13-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.2+13-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+The client will now receive all logging from the daemon (pid: 1360). The daemon log file: C:\Users\DELL\.gradle\daemon\8.5\daemon-1360.out.log
+Starting 7th build in daemon [uptime: 1 hrs 29 mins 7.222 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 16% of 384 MiB]
+Using 4 worker leases.
+Now considering [D:\mendix\Scrumptious\deployment] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'D:\mendix\Scrumptious\deployment\settings.gradle'.
+Projects loaded. Root project using build file 'D:\mendix\Scrumptious\deployment\build.gradle'.
+Included projects: [root project 'deployment']
+
+> Configure project :
+Evaluating root project 'deployment' using build file 'D:\mendix\Scrumptious\deployment\build.gradle'.
+All projects evaluated.
+Task name matched 'clean-excluded-jars'
+Task name matched 'deploy'
+Selected primary task 'clean-excluded-jars' from project :
+Selected primary task 'deploy' from project :
+Tasks to be executed: [task ':clean-excluded-jars', task ':copyDeploymentArtifacts', task ':copyLibs', task ':copyResources', task ':unzipDataSnapshot', task ':deploy']
+Tasks that were excluded: []
+Resolve mutations for :clean-excluded-jars (Thread[#169,included builds,5,main]) started.
+:clean-excluded-jars (Thread[#169,included builds,5,main]) started.
+destroyer locations for task group 0 (Thread[#170,Execution worker,5,main]) started.
+
+> Task :clean-excluded-jars UP-TO-DATE
+Caching disabled for task ':clean-excluded-jars' because:
+  Build cache is disabled
+Task ':clean-excluded-jars' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :copyDeploymentArtifacts (Thread[#170,Execution worker,5,main]) started.
+:copyDeploymentArtifacts (Thread[#170,Execution worker,5,main]) started.
+
+> Task :copyDeploymentArtifacts
+Caching disabled for task ':copyDeploymentArtifacts' because:
+  Build cache is disabled
+Task ':copyDeploymentArtifacts' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :copyLibs (Thread[#170,Execution worker,5,main]) started.
+:copyLibs (Thread[#170,Execution worker,5,main]) started.
+
+> Task :copyLibs NO-SOURCE
+Skipping task ':copyLibs' as it has no source files and no previous output files.
+Resolve mutations for :copyResources (Thread[#170,Execution worker,5,main]) started.
+:copyResources (Thread[#170,Execution worker,5,main]) started.
+
+> Task :copyResources
+Caching disabled for task ':copyResources' because:
+  Build cache is disabled
+Task ':copyResources' is not up-to-date because:
+  Output property 'destinationDir' file D:\mendix\Scrumptious\deployment\model\resources\Design_header.png has been removed.
+  Output property 'destinationDir' file D:\mendix\Scrumptious\deployment\model\resources\icon-bb.png has been removed.
+  Output property 'destinationDir' file D:\mendix\Scrumptious\deployment\model\resources\icon-list.png has been removed.
+Resolve mutations for :unzipDataSnapshot (Thread[#170,Execution worker,5,main]) started.
+:unzipDataSnapshot (Thread[#170,Execution worker,5,main]) started.
+
+> Task :unzipDataSnapshot SKIPPED
+Skipping task ':unzipDataSnapshot' as task onlyIf 'Task is enabled' is false.
+Resolve mutations for :deploy (Thread[#170,Execution worker,5,main]) started.
+:deploy (Thread[#170,Execution worker,5,main]) started.
+
+> Task :deploy
+Skipping task ':deploy' as it has no actions.
+
+BUILD SUCCESSFUL in 1s
+3 actionable tasks: 2 executed, 1 up-to-date
+Watched directory hierarchies: [D:\mendix\Scrumptious\deployment]
+
+
+

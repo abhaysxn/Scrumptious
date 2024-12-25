@@ -1,0 +1,35 @@
+ext {
+	mendixJavaVersion = 21
+	mendixInstallDir = "C:/Program Files/Mendix/10.18.0.54340"
+	projectName = "Scrumptious"
+	projectSafeName = "Scrumptious"
+	mendixProjectDir = "D:/mendix/Scrumptious"
+	deploymentDir = "D:/mendix/Scrumptious/deployment"
+	dataSnapshotFile = "D:/mendix/Scrumptious/data-snapshot.zip"
+	dataDir = "D:/mendix/Scrumptious/deployment/data"
+	extractDataSnapshot = false
+	templatesDir = "C:/Program Files/Mendix/10.18.0.54340/modeler/runtemplates"
+	runDir = "run"
+	compileTargetDir = "run/bin"
+	deploymentDirName = "deployment"
+	modelDirName = "model"
+	resourcesDirName = "resources"
+	javaSourceDirName = "javasource"
+	libDirName = "lib"
+	userlibDirName = "userlib"
+	vendorlibDirName = "vendorlib"
+	generateFullDebugInfo = false
+	excludedRunTemplatesFiles = [
+		"**/*.template"
+	]
+	publicApiJars = [
+		"runtime/bundles/com.mendix.json.jar",
+		"runtime/bundles/com.mendix.logging-api.jar",
+		"runtime/bundles/com.mendix.m2ee-api.jar",
+		"runtime/bundles/com.mendix.public-api.jar",
+		"runtime/bundles/org.eclipse.jetty.toolchain.jetty-servlet-api.jar",
+		"runtime/bundles/org.eclipse.jetty.toolchain.jetty-javax-websocket-api.jar"
+	]
+	excludedJars = []
+	protectedModules = []
+}
